@@ -26,7 +26,7 @@ vector <int> dijkstra(int V, vector<vector<int>> adj[], int S)
             auto it = *(st.begin()); 
             int node = it.second; 
             int dis = it.first; 
-            st.erase(it); 
+            st.erase(it);
           
             for(auto it : adj[node]) {
                 int adjNode = it[0]; 
