@@ -46,3 +46,7 @@ vector <int> dijkstra(int V, vector<vector<int>> adj[], int S)
 
 TC: O(Elog(V))
 SC: O(|E| + |V|)
+
+where,
+E = number of edges
+V = number of vertices
