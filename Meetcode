@@ -38,3 +38,5 @@ vector<int> topoSort(int V, vector<int> adj[])
 		return ans;
 	}
 
+TC : O(V+E)+O(V)
+SC : O(2N) + O(N) ~ O(2N)
